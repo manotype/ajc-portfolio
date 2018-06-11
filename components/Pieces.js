@@ -88,7 +88,7 @@ const Pieces = [
             {
               "tag" : "text",
               "headline":"My Involvement",
-              "copy":"I collaborated with Creative Direction and an iOS developer to prototype the nutrition path used to pitch the client. After officially being awarded the work, I provided the experience architecture and Art Direction, while closely collaborating with technology during the production of the first release. For subsequent releases, more staff was brought on to the project at which point I focused solely Art Direction and User Interface design until the app was taken in-house."
+              "copy":"I collaborated with Creative Direction and an iOS developer to prototype the nutrition path used to pitch the client. After officially being awarded the work, I provided the experience architecture and Art Direction, while closely collaborating with technology during the production of the first release. For subsequent releases, more staff was brought on to the project at which point I focused solely on Art Direction and User Interface design until the app was taken in-house."
             }
           ]
       }},
@@ -280,32 +280,32 @@ const Pieces = [
         "sections" : [
           {
             "tag" : "large",
-            "p":"Sketch 1",
+            "p":"",
             "img":"/static/img/Sketchbook-Feature-Large.jpg"
           },
           {
             "tag" : "large",
-            "p":"Sketch 2",
+            "p":"",
             "img":"/static/img/Sketchbook-Feature-Large-2.jpg"
           },
           {
             "tag" : "medium-rev",
-            "p":"Sketch 3",
+            "p":"",
             "img":"/static/img/Sketchbook-Feature-1.jpg"
           },
           {
             "tag" : "medium-rev",
-            "p":"Sketch 4",
+            "p":"",
             "img":"/static/img/Sketchbook-Feature-2.jpg"
           },
           {
             "tag" : "medium-rev",
-            "p":"Sketch 5",
+            "p":"",
             "img":"/static/img/Sketchbook-Feature-3.jpg"
           },
           {
             "tag" : "medium-rev",
-            "p":"Sketch 6",
+            "p":"",
             "img":"/static/img/Sketchbook-Feature-4.jpg"
           },
         ]

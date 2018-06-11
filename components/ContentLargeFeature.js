@@ -17,7 +17,7 @@ const ContentLargeFeature = (props) => (
             .container { background-position: 75% 45% }
           }
 
-          @media screen and (max-width:1024px) {
+          @media screen and (max-width:600px) {
             .align-center { grid-column:span 3; align-self:end; }
             p { padding:20px 20px 30px; line-height:1.25em; margin-bottom:0; }
             section { margin-bottom:10vh; }

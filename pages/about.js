@@ -8,6 +8,7 @@ export default () => (
           <h1 className="align-center">A Little<br />About Me</h1>
           <p>Simply put, I believe a brand’s actions speak louder than their words (though, those certainly matter too). Human-centered design in the modern enterprise brings competitive advantage by discovering customers’ latent needs and subsequently delivering desirable customer experiences. And, when design and data science come together, smart systems seamlessly drive personalized, data-driven touchpoints and adding meaningful value to people’s lives. To me, that’s the quintessence of design.
           </p>
+          <div className="portrait-container"></div>
       </section>
 
       <section className="grid col-2">
@@ -87,25 +88,16 @@ export default () => (
       </section>
     </div>
     <style jsx global>{`
-      .wrapper {
-        background-image: url('/static/img/portrait.jpg');
-        background-repeat: no-repeat;
-        background-position: bottom right;
-        background-attachment:fixed;
-        background-size:auto 85%;
-      }
 
-      @media screen and (max-width:1440px) {
-        h1 { font-size:6em !important; }
-      }
 
-      @media screen and (max-width:1024px) {
-        .wrapper { background-size:auto 45%; }
-        h1 { font-size:3em !important; }
-      }
+
     `}</style>
     <style jsx>{`
+      .portrait-container { position:fixed; width:100vw; height:100vh; top:0; background-image: url('/static/img/portrait.jpg'); background-repeat:no-repeat; background-position:bottom right; background-size:50%; }
+      footer { position:absolute; width:100%; }
+
       .a-spot { margin:0; }
+      .a-spot h1, .a-spot p { position:relative; z-index:1000; }
       h1 { font-weight:300; text-transform:uppercase; font-size:9em; line-height:.92em; grid-column:span 2; margin:0; }
       ul { list-style:none; margin:0;padding:0; }
       li { font-weight:300; font-size:1.5em; padding:.5em 0; border-top:1px solid #d2d2d2; }
@@ -113,16 +105,18 @@ export default () => (
       ul.decompress { width:50%; }
 
       @media screen and (max-width:1440px) {
+        h1 { font-size:6em !important; }
         li { font-size:1.25em !important; }
       }
 
       @media screen and (max-width:1024px) {
+        .portrait-container { background-size:auto 45%; }
+        h1 { font-size:3em !important; }
         section { height:auto !important; }
         li { font-size:1em; font-weight:500; }
         .list { grid-template-columns:1fr !important; }
         ul.decompress { width:100%; }
       }
-
     `}</style>
   </Layout>
 )

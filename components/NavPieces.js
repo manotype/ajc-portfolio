@@ -57,7 +57,7 @@ class NavPieces extends React.Component {
           {pieceDisplay}
         </div>
         <style jsx>{`
-          .slide-container { position:relative; padding:0 0 3em; overflow-x:scroll }
+          .slide-container { position:relative; padding:0 0 3em; overflow-x:scroll; -webkit-overflow-scrolling:touch; }
           .pieces-container { width:${containerWidth}; }
 
           @media screen and (max-width:1024px) {

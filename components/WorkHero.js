@@ -25,7 +25,7 @@ const WorkHero = (props) => (
         h1 { font-size:4.5em; }
       }
 
-      @media screen and (max-width:1024px) {
+      @media screen and (max-width:600px) {
         h1 { font-size:3em; }
         section { top:-88px !important; height:100vh; background-position:bottom right !important; }
         .hero-content { align-self:end; grid-template-rows:65% 25% 10% !important; }
