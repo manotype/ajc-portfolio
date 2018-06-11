@@ -33,7 +33,7 @@ export default () => (
     <WorkPreviews />
 
     <BrandExperience />
-
+    {/* Homepage styles */}
     <style jsx>{`
       .ajc-structure {
         grid-column-end: span 2;
