@@ -14,7 +14,7 @@ export default () => (
             <p>
               I am a designer that loves adding value to people’s lives by fulfilling their latent needs through utility, emotion, and technology.
             </p>
-            <a href="#" className="button">Download résumé</a>
+            <a href="/static/ajcook-cv-2018.pdf" download className="button">Download résumé</a>
         </div>
         <div className="creds align-center">
           <ul>

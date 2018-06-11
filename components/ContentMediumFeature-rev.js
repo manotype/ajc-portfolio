@@ -15,7 +15,7 @@ const ContentMediumFeatureRev = (props) => (
           img { width:85%; }
         }
 
-        @media screen and (max-width:1024px) {
+        @media screen and (max-width:600px) {
           section { margin-bottom:10vh; }
           .container { grid-template-columns:1fr !important; }
           p { padding:20px; }

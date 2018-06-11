@@ -17,7 +17,7 @@ const ContentText = (props) => (
         .container { padding:40px 0; }
       }
 
-      @media screen and (max-width:1024px) {
+      @media screen and (max-width:600px) {
         .col { grid-column-start:1; }
         .container { padding:24px 0; }
         section { margin-bottom:10vh; }

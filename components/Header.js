@@ -88,9 +88,10 @@ const Header = () => (
 
       @media screen and (max-width:1440px) {
         p { font-size:1.25em; }
+        .col-4 { grid-template-columns:1fr 1fr 1fr 1fr !important; }
       }
 
-      @media screen and (max-width:1024px) {
+      @media screen and (max-width:600px) {
         body { padding-top:88px; }
         header { height:88px !important; min-height:64px !important; }
 

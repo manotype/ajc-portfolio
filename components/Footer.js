@@ -17,21 +17,27 @@ const Footer = () => (
       footer { background-color:#f2f2f2; padding:2em 0; }
       button { border: none; background:none; margin:0 3em; }
       button:hover { cursor: pointer; }
-      button img { width:25%; }
+      button img { width:40px; }
       .container { width:92%; max-width:1600px; margin:0 auto; height:100%; display:grid; grid-template-columns:1fr 1fr; }
       p { text-transform: uppercase; font-weight:500; margin:.25em 0; }
       .copyright { font-family:"freight-text-pro"; font-weight:300; font-style:italic; font-size:1.125em; letter-spacing:.06em; text-transform:none; }
       .contacts { text-align:right; align-self:center; }
 
       @media screen and (max-width:1440px) {
-        button { margin:0.25em; }
+        button { margin:0 3em; }
+
       }
 
       @media screen and (max-width:1024px) {
-        .container { grid-template-columns:1fr; text-align:center; }
         button img { width:30px; }
         .contacts { padding:20px 0 0; }
         .copyright { font-size:1em; }
+      }
+
+      @media screen and (max-width:600px) {
+        button { margin:0 1em; }
+        .container { grid-template-columns:1fr; text-align:center; }
+        .contacts { text-align:center; }
       }
     `}</style>
   </footer>

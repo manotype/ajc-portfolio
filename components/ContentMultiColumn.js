@@ -11,7 +11,7 @@ const ContentMultiColumn = (props) => (
     <style jsx>{`
       section { margin-bottom:15vh; }
 
-      @media screen and (max-width:1024px) {
+      @media screen and (max-width:600px) {
         section { margin-bottom:10vh; }
         .container { grid-template-columns:1fr !important; }
         p { line-height:1.25em !important; }

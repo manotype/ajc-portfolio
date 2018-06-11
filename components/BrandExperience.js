@@ -28,6 +28,16 @@ export default () => (
     </div>
     <style jsx>{`
       .one-forty { min-height:140px; }
+      img { width:100%; }
+
+
+
+      @media screen and (max-width:1024px) {
+        .col-5 { grid-template-columns:1fr 1fr 1fr !important; }
+      }
+      @media screen and (max-width:600px) {
+        .col-5 { grid-template-columns:1fr 1fr !important; }
+      }
     `}</style>
   </section>
 )
