@@ -38,6 +38,7 @@ class WorkPreviews extends React.Component {
             .preview-container { grid-template-rows: 65% 22% 12%; background-size:200% !important; }
             .cta { grid-column:span 3; }
             .secondary-feature { margin-bottom:24px; }
+            .col-3 { grid-template-columns:1fr !important; }
           }
         `}</style>
         <div className="container">

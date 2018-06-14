@@ -1156,46 +1156,46 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return external__react__default.a.createElement("section", {
-        className: "jsx-332861707" + " " + "auto-height"
+        className: "jsx-1176350574" + " " + "auto-height"
       }, external__react__default.a.createElement(style__default.a, {
-        styleId: "332861707",
-        css: [".preview-container.jsx-332861707{grid-column:span 3;grid-template-rows:25% 50% 25%;background-position:center;background-size:cover;}", ".preview-info.jsx-332861707{background-color:#F5D123;mix-blend-mode:multiply;padding:19%;grid-row-start:2;}", ".preview-info.jsx-332861707 p.jsx-332861707{border-top:1px solid #4a4a4a;border-bottom:1px solid #4a4a4a;padding:.25em 0;}", ".cta.jsx-332861707{grid-row-start:3;padding:0 19%;}", ".secondary-feature.jsx-332861707{min-height:400px;}", ".secondary-feature-link.jsx-332861707{font-family:\"ajcFont\";font-style:normal;}", ".nameplate.jsx-332861707{-webkit-align-self:end;-ms-flex-item-align:end;align-self:end;background-color:#F5D123;mix-blend-mode:multiply;-webkit-transform:translate(8px,8px);-ms-transform:translate(8px,8px);transform:translate(8px,8px);padding:.5em 1em;text-transform:uppercase;}", "@media screen and (max-width:1440px){.preview-container.jsx-332861707{background-position:50% 42% !important;}.preview-info.jsx-332861707{padding:12%;}}", "@media screen and (max-width:600px){.secondary-feature.jsx-332861707{grid-column:span 1;}.preview-info.jsx-332861707{grid-column:span 3;padding:25px;width:90%;mix-blend-mode:normal;}h3.jsx-332861707{margin:0;}p.jsx-332861707{margin:0 0 .5em;line-height:1.25em;}.preview-container.jsx-332861707{grid-template-rows:65% 22% 12%;background-size:200% !important;}.cta.jsx-332861707{grid-column:span 3;}.secondary-feature.jsx-332861707{margin-bottom:24px;}}"]
+        styleId: "1176350574",
+        css: [".preview-container.jsx-1176350574{grid-column:span 3;grid-template-rows:25% 50% 25%;background-position:center;background-size:cover;}", ".preview-info.jsx-1176350574{background-color:#F5D123;mix-blend-mode:multiply;padding:19%;grid-row-start:2;}", ".preview-info.jsx-1176350574 p.jsx-1176350574{border-top:1px solid #4a4a4a;border-bottom:1px solid #4a4a4a;padding:.25em 0;}", ".cta.jsx-1176350574{grid-row-start:3;padding:0 19%;}", ".secondary-feature.jsx-1176350574{min-height:400px;}", ".secondary-feature-link.jsx-1176350574{font-family:\"ajcFont\";font-style:normal;}", ".nameplate.jsx-1176350574{-webkit-align-self:end;-ms-flex-item-align:end;align-self:end;background-color:#F5D123;mix-blend-mode:multiply;-webkit-transform:translate(8px,8px);-ms-transform:translate(8px,8px);transform:translate(8px,8px);padding:.5em 1em;text-transform:uppercase;}", "@media screen and (max-width:1440px){.preview-container.jsx-1176350574{background-position:50% 42% !important;}.preview-info.jsx-1176350574{padding:12%;}}", "@media screen and (max-width:600px){.secondary-feature.jsx-1176350574{grid-column:span 1;}.preview-info.jsx-1176350574{grid-column:span 3;padding:25px;width:90%;mix-blend-mode:normal;}h3.jsx-1176350574{margin:0;}p.jsx-1176350574{margin:0 0 .5em;line-height:1.25em;}.preview-container.jsx-1176350574{grid-template-rows:65% 22% 12%;background-size:200% !important;}.cta.jsx-1176350574{grid-column:span 3;}.secondary-feature.jsx-1176350574{margin-bottom:24px;}.col-3.jsx-1176350574{grid-template-columns:1fr !important;}}"]
       }), external__react__default.a.createElement("div", {
-        className: "jsx-332861707" + " " + "container"
+        className: "jsx-1176350574" + " " + "container"
       }, external__react__default.a.createElement("h2", {
-        className: "jsx-332861707"
+        className: "jsx-1176350574"
       }, "Featured Work"), external__react__default.a.createElement("div", {
         "class": "grid col-3 column-gutter row-gutter",
-        className: "jsx-332861707"
+        className: "jsx-1176350574"
       }, this.state.pieces.map(function (piece, i) {
         return i < 3 ? external__react__default.a.createElement("section", {
           style: {
             backgroundImage: "url(".concat(piece.previewImage, ")")
           },
-          className: "jsx-332861707" + " " + "light-gray grid col-3 preview-container"
+          className: "jsx-1176350574" + " " + "light-gray grid col-3 preview-container"
         }, external__react__default.a.createElement("div", {
-          className: "jsx-332861707" + " " + "preview-info align-center"
+          className: "jsx-1176350574" + " " + "preview-info align-center"
         }, external__react__default.a.createElement("h3", {
-          className: "jsx-332861707"
+          className: "jsx-1176350574"
         }, piece.name), external__react__default.a.createElement("p", {
-          className: "jsx-332861707"
+          className: "jsx-1176350574"
         }, piece.previewBlurb)), external__react__default.a.createElement("div", {
-          className: "jsx-332861707" + " " + "cta align-center"
+          className: "jsx-1176350574" + " " + "cta align-center"
         }, external__react__default.a.createElement("a", {
           href: "work?id=".concat(piece.id),
-          className: "jsx-332861707" + " " + "button gray"
+          className: "jsx-1176350574" + " " + "button gray"
         }, piece.previewCTA))) : external__react__default.a.createElement("a", {
           href: "/work?id=".concat(piece.id),
-          className: "jsx-332861707" + " " + "secondary-feature-link"
+          className: "jsx-1176350574" + " " + "secondary-feature-link"
         }, external__react__default.a.createElement("div", {
           style: {
             backgroundImage: "url(".concat(piece.previewImage, ")"),
             backgroundPosition: "center",
             backgroundSize: "cover"
           },
-          className: "jsx-332861707" + " " + "secondary-feature grid light-gray"
+          className: "jsx-1176350574" + " " + "secondary-feature grid light-gray"
         }, external__react__default.a.createElement("div", {
-          className: "jsx-332861707" + " " + "nameplate"
+          className: "jsx-1176350574" + " " + "nameplate"
         }, piece.name)));
       }))));
     }
