@@ -5,9 +5,7 @@ const ContentMultiColumn = (props) => (
     <div className="container grid col-3" >
         {props.children}
     </div>
-    <style jsx global>{`
 
-    `}</style>
     <style jsx>{`
       section { margin-bottom:15vh; }
 
