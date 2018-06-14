@@ -19,6 +19,7 @@ class WorkPreviews extends React.Component {
         <div className="container">
           <h2>Featured Work</h2>
           <div className="grid col-3 column-gutter row-gutter">
+          //fixed column issue
           {
             this.state.pieces.map((piece,i) => (
               (i<3) ? (
