@@ -107,7 +107,7 @@ const Header = () => (
         p { font-size:1em;  }
 
         .statistic { font-size:4em; }
-
+        .previews-container { grid-template-columns:1fr !important; }
       }
     `}</style>
   </div>
