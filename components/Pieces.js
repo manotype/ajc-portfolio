@@ -8,17 +8,20 @@ const Pieces = [
       "previewCTA" : "View project details",
       "details" : {
         "hero":"/static/img/Empower-DetailsHero.jpg",
+        "herosmall" : "/static/img/Empower-DetailsHero-sm.jpg",
         "about" : "Home energy inefficiencies cost homeowners hundreds to thousands of dollars per year, on top of their energy utility bills. Empower uses sophisticated algorithms to analyze utility and public data to sniff out where a home is losing its energy.",
         "sections" : [
           {
             "tag" : "large",
             "p":"By entering in your home’s address, Empower accesses data from home energy providers, county auditors, and NOAA.",
-            "img":"/static/img/Empower-Feature-Large-1.jpg"
+            "img":"/static/img/Empower-Feature-Large-1.jpg",
+            "imgsmall":"/static/img/Empower-Feature-Large-1-sm.jpg"
           },
           {
             "tag" : "large",
             "p":"Data science provides insight into your home’s energy use and offers products and services to mitigate the issues.",
-            "img":"/static/img/Empower-Feature-Large-2.jpg"
+            "img":"/static/img/Empower-Feature-Large-2.jpg",
+            "imgsmall":"/static/img/Empower-Feature-Large-2-sm.jpg"
           },
           {
             "tag" : "text",
@@ -36,12 +39,14 @@ const Pieces = [
       "previewCTA" : "View project details",
       "details" : {
         "hero":"/static/img/Silentnight-DetailsHero.jpg",
+        "herosmall" : "/static/img/Silentnight-DetailsHero-sm.jpg",
         "about": "Despite dominance of market share—by a considerable margin—Silentnight was feeling the pressure from new direct-to-consumer options like Casper and Leesa. They needed help to ditch the manufacturer paradigm and begin selling directly to buyers.",
         "sections" : [
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/Silentnight-Feature-Large.jpg"
+            "img":"/static/img/Silentnight-Feature-Large.jpg",
+            "imgsmall":"/static/img/Silentnight-Feature-Large-sm.jpg"
           },
           {
             "tag" : "text",
@@ -61,6 +66,7 @@ const Pieces = [
       "previewCTA" : "View project details",
       "details" : {
           "hero" : "/static/img/MyWendys-DetailsHero.jpg",
+          "herosmall" : "/static/img/MyWendys-DetailsHero-sm.jpg",
           "about" : "Just prior to the lunch hour, wendys.com saw traffic spiking to their nutrition information pages. The MyWendy’s app was born from this insight to make that information accessible for those standing in or going through the drive-thru.",
           "sections" : [
             {
@@ -78,7 +84,8 @@ const Pieces = [
             {
               "tag" : "large",
               "p":"After field tests and pilots in two local markets, Wendy’s became the first QSR to launch mobile payment nationwide.",
-              "img":"/static/img/MyWendys-Pay.jpg"
+              "img":"/static/img/MyWendys-Pay.jpg",
+              "imgsmall":"/static/img/MyWendys-Pay-sm.jpg"
             },
             {
               "tag" : "medium",
@@ -101,6 +108,7 @@ const Pieces = [
       "previewCTA" : "View project details",
       "details" : {
         "hero":"/static/img/BN-DetailsHero.jpg",
+        "herosmall" : "/static/img/BN-DetailsHero-sm.jpg",
         "about": "Like many retailers, Barnes&Noble was struggling to keep pace with the likes of Amazon and other large-scale e-tailers.",
         "sections" : [
           {
@@ -111,7 +119,8 @@ const Pieces = [
           {
             "tag" : "large",
             "p":"More than an e-commerce redesign, content was used to help readers uncover the books they didn't even know they yet wanted to read.",
-            "img":"/static/img/BN-Large-Feature-2.jpg"
+            "img":"/static/img/BN-Large-Feature-2.jpg",
+            "imgsmall":"/static/img/BN-Large-Feature-2-sm.jpg"
           },
           {
             "tag" : "columns",
@@ -128,7 +137,8 @@ const Pieces = [
           {
             "tag" : "large",
             "p":"Most samples of books are limited to front matter, not the actual story. Like one can in their bricks and mortars, we pushed to offer more accessible samples.",
-            "img":"/static/img/BN-Large-Feature-1.jpg"
+            "img":"/static/img/BN-Large-Feature-1.jpg",
+            "imgsmall":"/static/img/BN-Large-Feature-1-sm.jpg"
           },
           {
             "tag" : "text",
@@ -146,12 +156,14 @@ const Pieces = [
       "previewCTA" : "View project details",
       "details" : {
         "hero":"/static/img/Hersheys-DetailsHero.jpg",
+        "herosmall" : "/static/img/Hersheys-DetailsHero-sm.jpg",
         "about": "The Hershey’s Company were experiencing a decline in sales of their premium brands and needed help prototyping experiences that could breathe new life into their product line.",
         "sections" : [
           {
             "tag" : "large",
             "p":"A new culinary program provided an opportunity to infuse premium Hershey’s chocolates into subscription based, chef-prepared meal kits.",
-            "img":"/static/img/Hersheys-Large-Feature-1.jpg"
+            "img":"/static/img/Hersheys-Large-Feature-1.jpg",
+            "imgsmall":"/static/img/Hersheys-Large-Feature-1-sm.jpg"
           },
           {
             "tag" : "columns",
@@ -168,7 +180,8 @@ const Pieces = [
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/Hersheys-Large-Feature-2.jpg"
+            "img":"/static/img/Hersheys-Large-Feature-2.jpg",
+            "imgsmall":"/static/img/Hersheys-Large-Feature-2-sm.jpg"
           },
           {
             "tag" : "text",
@@ -186,17 +199,20 @@ const Pieces = [
       "previewCTA" : "View project details",
       "details" : {
         "hero":"/static/img/Looped-DetailsHero.jpg",
+        "herosmall" : "/static/img/Looped-DetailsHero-sm.jpg",
         "about": "Before Columbus, OH was awarded Smart City by the US Department of Transportation in 2016, Looped Transit collaborated with the City on a ride-sharing program.",
         "sections" : [
           {
             "tag" : "large",
             "p":"Application Flows",
-            "img":"/static/img/Looped-Large-Feature.jpg"
+            "img":"/static/img/Looped-Large-Feature.jpg",
+            "imgsmall":"/static/img/Looped-Large-Feature-sm.jpg"
           },
           {
             "tag" : "large",
             "p":"Annotated Wireframes",
-            "img":"/static/img/Looped-Large-Feature-2.jpg"
+            "img":"/static/img/Looped-Large-Feature-2.jpg",
+            "imgsmall":"/static/img/Looped-Large-Feature-2-sm.jpg"
           },
           {
             "tag" : "text",
@@ -214,28 +230,33 @@ const Pieces = [
       "previewCTA" : "View project details",
       "details" : {
         "hero":"/static/img/VisCom-Hero.jpg",
-        "about": "Though digital has been in my blood since I first played on the internet in 1995, I was formally trained in Visual Communication Design. This training was the foundation of my transition into digital experience.",
+        "herosmall" : "/static/img/VisCom-DetailsHero-sm.jpg",
+        "about": "Though digital has been in my blood since I first played on the internet in 1995, I was formally trained in Visual Communication Design. This training was the foundation for the visual design and information architecture that is brought to my work.",
         "sections" : [
 
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/VisCom-Feature-Alacrity.jpg"
+            "img":"/static/img/VisCom-Feature-Alacrity.jpg",
+            "imgsmall":"/static/img/VisCom-Feature-Alacrity-sm.jpg"
           },
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/VisCom-Feature-Dre.jpg"
+            "img":"/static/img/VisCom-Feature-Dre.jpg",
+            "imgsmall":"/static/img/VisCom-Feature-Dre-sm.jpg"
           },
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/VisCom-Feature-Key.jpg"
+            "img":"/static/img/VisCom-Feature-Key.jpg",
+            "imgsmall":"/static/img/VisCom-Feature-Key-sm.jpg"
           },
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/VisCom-Feature-Aesthetics.jpg"
+            "img":"/static/img/VisCom-Feature-Aesthetics.jpg",
+            "imgsmall":"/static/img/VisCom-Feature-Aesthetics-sm.jpg"
           }
         ]
       }},
@@ -248,22 +269,26 @@ const Pieces = [
       "previewCTA" : "View project details",
       "details" : {
         "hero":"/static/img/Identity-Hero.jpg",
-        "about": "I love typography. I love shape making. I love bringing the two together to create identities.",
+        "herosmall" : "/static/img/Identity-DetailsHero-sm.jpg",
+        "about": "Visual identity is the cornerstone of brand communication & expression. Without it, personality is washed away in the sea of sameness. The craft of visual identity melds together two of my favorite design components, typography and precision shape making.",
         "sections" : [
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/Identity-Feature-Large-3.jpg"
+            "img":"/static/img/Identity-Feature-Large-3.jpg",
+            "imgsmall":"/static/img/Identity-Feature-Large-3-sm.jpg"
           },
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/Identity-Feature-Large-2.jpg"
+            "img":"/static/img/Identity-Feature-Large-2.jpg",
+            "imgsmall":"/static/img/Identity-Feature-Large-2-sm.jpg"
           },
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/Identity-Feature-Large.jpg"
+            "img":"/static/img/Identity-Feature-Large.jpg",
+            "imgsmall":"/static/img/Identity-Feature-Large-sm.jpg"
           }
         ]
       }},
@@ -276,17 +301,20 @@ const Pieces = [
       "previewCTA" : "View project details",
       "details" : {
         "hero":"/static/img/Sketchbook-Hero.jpg",
+        "herosmall" : "/static/img/Sketchbook-DetailsHero-sm.jpg",
         "about": "Design happens in sketchbooks, on loose leaves and napkins. The computer is simply a production tool. I sometimes get lucky and have a vision in my head where I can just go straight to my Mac, but most of the time, the genesis of ideas are started on paper.",
         "sections" : [
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/Sketchbook-Feature-Large.jpg"
+            "img":"/static/img/Sketchbook-Feature-Large.jpg",
+            "imgsmall":"/static/img/Sketchbook-Feature-Large-sm.jpg"
           },
           {
             "tag" : "large",
             "p":"",
-            "img":"/static/img/Sketchbook-Feature-Large-2.jpg"
+            "img":"/static/img/Sketchbook-Feature-Large-2.jpg",
+            "imgsmall":"/static/img/Sketchbook-Feature-Large-2-sm.jpg"
           },
           {
             "tag" : "medium-rev",

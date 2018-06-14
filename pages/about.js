@@ -83,18 +83,18 @@ export default () => (
       <section className="grid col-2 auto-height">
         <div class="align-center">
           <h2>Site details</h2>
-          <p>This site was designed on paper—okay, the digital paper known as iPad Pro—and produced in Sketch. I then built this in ReactJS, so if it’s a little buggy, please forgive me. I’m more of a prototype developer and you probably don’t want me pushing your production-level code. I wanted to learn React and see what all the ado was about, so this is the first thing I’ve made with it. I highly anticipate refactoring about 75% of this code now that I’ve shipped something. 👍</p>
+          <p>This site was designed on paper—okay, the digital paper known as iPad Pro—and produced in Sketch. I then built this in React JS/Next JS, so if it’s a little buggy, please forgive me. I’m more of a prototype developer and you probably don’t want me pushing your production-level code. I wanted to learn React and see what all the ado was about, so this is the first thing I’ve made with it. I highly anticipate refactoring about 75% of this code now that I’ve shipped something. 👍</p>
         </div>
       </section>
     </div>
     <style jsx global>{`
 
-
+      footer { position:absolute; width:100%; }
 
     `}</style>
     <style jsx>{`
-      .portrait-container { position:fixed; width:100vw; height:100vh; top:0; background-image: url('/static/img/portrait.jpg'); background-repeat:no-repeat; background-position:bottom right; background-size:50%; }
-      footer { position:absolute; width:100%; }
+      .portrait-container { position:fixed; width:75vw; height:100vh; top:0; right:0; background-image: url('/static/img/portrait.jpg'); background-repeat:no-repeat; background-position:bottom right; background-size:50%; }
+
 
       .a-spot { margin:0; }
       .a-spot h1, .a-spot p { position:relative; z-index:1000; }
@@ -109,8 +109,11 @@ export default () => (
         li { font-size:1.25em !important; }
       }
 
-      @media screen and (max-width:1024px) {
-        .portrait-container { background-size:auto 45%; }
+      @media screen and (max-width:600px) {
+        .grid.col-2 { grid-template-columns:1fr !important; }
+        footer { position:relative; }
+        .a-spot { display:block; margin-bottom: 10vh; width:auto; }
+        .portrait-container { position:relative; background-size:100%; width:100vw; background-position:top center; height:40vh; }
         h1 { font-size:3em !important; }
         section { height:auto !important; }
         li { font-size:1em; font-weight:500; }

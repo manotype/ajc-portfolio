@@ -30,8 +30,8 @@ class WorkPreviews extends React.Component {
             .preview-info { padding:12%; }
           }
 
-          @media screen and (max-width:1024px) {
-            .secondary-feature { grid-column:span 3; }
+          @media screen and (max-width:600px) {
+            .secondary-feature { grid-column:span 1; }
             .preview-info { grid-column:span 3; padding:25px; width:90%; mix-blend-mode:normal; }
             h3 { margin:0; }
             p { margin:0 0 .5em; line-height:1.25em; }

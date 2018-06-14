@@ -18,6 +18,7 @@ class Work extends React.Component {
     this.state = { "Sections": []}
     this.state = { "PieceID": Number() }
     this.placeComponent = this.placeComponent.bind(this)
+    this.state = { "Screen":"" }
   }
 
   componentWillMount() {
@@ -28,6 +29,14 @@ class Work extends React.Component {
       ):('')
     })
     this.setState({PieceID:Number(this.props.url.query.id)})
+  }
+
+  componentDidMount() {
+    if(window.innerWidth > 600) {
+      this.setState({Screen:"large"})
+    } else {
+      this.setState({Screen:"small"})
+    }
   }
 
   placeComponent(sectionTag,key) {
@@ -41,7 +50,7 @@ class Work extends React.Component {
         </ContentMultiColumn>
         )
       case 'large':
-        return <ContentLargeFeature hero={this.state.Piece.details.sections[key].img}>{this.state.Piece.details.sections[key].p}</ContentLargeFeature>
+        return <ContentLargeFeature hero={this.state.Piece.details.sections[key].img} herosmall={this.state.Piece.details.sections[key].imgsmall} size={this.state.Screen}>{this.state.Piece.details.sections[key].p}</ContentLargeFeature>
       case 'medium':
         return <ContentMediumFeature hero={this.state.Piece.details.sections[key].img}>{this.state.Piece.details.sections[key].p}</ContentMediumFeature>
       case 'medium-rev':
@@ -60,7 +69,7 @@ class Work extends React.Component {
 
     return(
       <Layout>
-        <WorkHero hero={`${piece.details.hero}`}>
+        <WorkHero hero={`${piece.details.hero}`} herosmall={`${piece.details.herosmall}`} size={this.state.Screen}>
           <h1>{piece.name}</h1>
           <div className="overview">
             <p>{piece.details.about}</p>

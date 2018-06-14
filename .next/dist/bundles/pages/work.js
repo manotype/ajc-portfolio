@@ -102,15 +102,18 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Empower-DetailsHero.jpg",
+    "herosmall": "/static/img/Empower-DetailsHero-sm.jpg",
     "about": "Home energy inefficiencies cost homeowners hundreds to thousands of dollars per year, on top of their energy utility bills. Empower uses sophisticated algorithms to analyze utility and public data to sniff out where a home is losing its energy.",
     "sections": [{
       "tag": "large",
       "p": "By entering in your home’s address, Empower accesses data from home energy providers, county auditors, and NOAA.",
-      "img": "/static/img/Empower-Feature-Large-1.jpg"
+      "img": "/static/img/Empower-Feature-Large-1.jpg",
+      "imgsmall": "/static/img/Empower-Feature-Large-1-sm.jpg"
     }, {
       "tag": "large",
       "p": "Data science provides insight into your home’s energy use and offers products and services to mitigate the issues.",
-      "img": "/static/img/Empower-Feature-Large-2.jpg"
+      "img": "/static/img/Empower-Feature-Large-2.jpg",
+      "imgsmall": "/static/img/Empower-Feature-Large-2-sm.jpg"
     }, {
       "tag": "text",
       "headline": "My Involvement",
@@ -126,11 +129,13 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Silentnight-DetailsHero.jpg",
+    "herosmall": "/static/img/Silentnight-DetailsHero-sm.jpg",
     "about": "Despite dominance of market share—by a considerable margin—Silentnight was feeling the pressure from new direct-to-consumer options like Casper and Leesa. They needed help to ditch the manufacturer paradigm and begin selling directly to buyers.",
     "sections": [{
       "tag": "large",
       "p": "",
-      "img": "/static/img/Silentnight-Feature-Large.jpg"
+      "img": "/static/img/Silentnight-Feature-Large.jpg",
+      "imgsmall": "/static/img/Silentnight-Feature-Large-sm.jpg"
     }, {
       "tag": "text",
       "headline": "My Involvement",
@@ -148,6 +153,7 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/MyWendys-DetailsHero.jpg",
+    "herosmall": "/static/img/MyWendys-DetailsHero-sm.jpg",
     "about": "Just prior to the lunch hour, wendys.com saw traffic spiking to their nutrition information pages. The MyWendy’s app was born from this insight to make that information accessible for those standing in or going through the drive-thru.",
     "sections": [{
       "tag": "columns",
@@ -163,7 +169,8 @@ var Pieces = [{
     }, {
       "tag": "large",
       "p": "After field tests and pilots in two local markets, Wendy’s became the first QSR to launch mobile payment nationwide.",
-      "img": "/static/img/MyWendys-Pay.jpg"
+      "img": "/static/img/MyWendys-Pay.jpg",
+      "imgsmall": "/static/img/MyWendys-Pay-sm.jpg"
     }, {
       "tag": "medium",
       "img": "/static/img/MyWendys-Personalization.jpg",
@@ -183,6 +190,7 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/BN-DetailsHero.jpg",
+    "herosmall": "/static/img/BN-DetailsHero-sm.jpg",
     "about": "Like many retailers, Barnes&Noble was struggling to keep pace with the likes of Amazon and other large-scale e-tailers.",
     "sections": [{
       "tag": "text",
@@ -191,7 +199,8 @@ var Pieces = [{
     }, {
       "tag": "large",
       "p": "More than an e-commerce redesign, content was used to help readers uncover the books they didn't even know they yet wanted to read.",
-      "img": "/static/img/BN-Large-Feature-2.jpg"
+      "img": "/static/img/BN-Large-Feature-2.jpg",
+      "imgsmall": "/static/img/BN-Large-Feature-2-sm.jpg"
     }, {
       "tag": "columns",
       "img1": "/static/img/BN-Search.jpg",
@@ -206,7 +215,8 @@ var Pieces = [{
     }, {
       "tag": "large",
       "p": "Most samples of books are limited to front matter, not the actual story. Like one can in their bricks and mortars, we pushed to offer more accessible samples.",
-      "img": "/static/img/BN-Large-Feature-1.jpg"
+      "img": "/static/img/BN-Large-Feature-1.jpg",
+      "imgsmall": "/static/img/BN-Large-Feature-1-sm.jpg"
     }, {
       "tag": "text",
       "headline": "My Involvement",
@@ -222,11 +232,13 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Hersheys-DetailsHero.jpg",
+    "herosmall": "/static/img/Hersheys-DetailsHero-sm.jpg",
     "about": "The Hershey’s Company were experiencing a decline in sales of their premium brands and needed help prototyping experiences that could breathe new life into their product line.",
     "sections": [{
       "tag": "large",
       "p": "A new culinary program provided an opportunity to infuse premium Hershey’s chocolates into subscription based, chef-prepared meal kits.",
-      "img": "/static/img/Hersheys-Large-Feature-1.jpg"
+      "img": "/static/img/Hersheys-Large-Feature-1.jpg",
+      "imgsmall": "/static/img/Hersheys-Large-Feature-1-sm.jpg"
     }, {
       "tag": "columns",
       "img1": "/static/img/Hersheys-Experience.jpg",
@@ -241,7 +253,8 @@ var Pieces = [{
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/Hersheys-Large-Feature-2.jpg"
+      "img": "/static/img/Hersheys-Large-Feature-2.jpg",
+      "imgsmall": "/static/img/Hersheys-Large-Feature-2-sm.jpg"
     }, {
       "tag": "text",
       "headline": "My Involvement",
@@ -257,15 +270,18 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Looped-DetailsHero.jpg",
+    "herosmall": "/static/img/Looped-DetailsHero-sm.jpg",
     "about": "Before Columbus, OH was awarded Smart City by the US Department of Transportation in 2016, Looped Transit collaborated with the City on a ride-sharing program.",
     "sections": [{
       "tag": "large",
       "p": "Application Flows",
-      "img": "/static/img/Looped-Large-Feature.jpg"
+      "img": "/static/img/Looped-Large-Feature.jpg",
+      "imgsmall": "/static/img/Looped-Large-Feature-sm.jpg"
     }, {
       "tag": "large",
       "p": "Annotated Wireframes",
-      "img": "/static/img/Looped-Large-Feature-2.jpg"
+      "img": "/static/img/Looped-Large-Feature-2.jpg",
+      "imgsmall": "/static/img/Looped-Large-Feature-2-sm.jpg"
     }, {
       "tag": "text",
       "headline": "My Involvement",
@@ -281,23 +297,28 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/VisCom-Hero.jpg",
-    "about": "Though digital has been in my blood since I first played on the internet in 1995, I was formally trained in Visual Communication Design. This training was the foundation of my transition into digital experience.",
+    "herosmall": "/static/img/VisCom-DetailsHero-sm.jpg",
+    "about": "Though digital has been in my blood since I first played on the internet in 1995, I was formally trained in Visual Communication Design. This training was the foundation for the visual design and information architecture that is brought to my work.",
     "sections": [{
       "tag": "large",
       "p": "",
-      "img": "/static/img/VisCom-Feature-Alacrity.jpg"
+      "img": "/static/img/VisCom-Feature-Alacrity.jpg",
+      "imgsmall": "/static/img/VisCom-Feature-Alacrity-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/VisCom-Feature-Dre.jpg"
+      "img": "/static/img/VisCom-Feature-Dre.jpg",
+      "imgsmall": "/static/img/VisCom-Feature-Dre-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/VisCom-Feature-Key.jpg"
+      "img": "/static/img/VisCom-Feature-Key.jpg",
+      "imgsmall": "/static/img/VisCom-Feature-Key-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/VisCom-Feature-Aesthetics.jpg"
+      "img": "/static/img/VisCom-Feature-Aesthetics.jpg",
+      "imgsmall": "/static/img/VisCom-Feature-Aesthetics-sm.jpg"
     }]
   }
 }, {
@@ -309,19 +330,23 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Identity-Hero.jpg",
-    "about": "I love typography. I love shape making. I love bringing the two together to create identities.",
+    "herosmall": "/static/img/Identity-DetailsHero-sm.jpg",
+    "about": "Visual identity is the cornerstone of brand communication & expression. Without it, personality is washed away in the sea of sameness. The craft of visual identity melds together two of my favorite design components, typography and precision shape making.",
     "sections": [{
       "tag": "large",
       "p": "",
-      "img": "/static/img/Identity-Feature-Large-3.jpg"
+      "img": "/static/img/Identity-Feature-Large-3.jpg",
+      "imgsmall": "/static/img/Identity-Feature-Large-3-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/Identity-Feature-Large-2.jpg"
+      "img": "/static/img/Identity-Feature-Large-2.jpg",
+      "imgsmall": "/static/img/Identity-Feature-Large-2-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/Identity-Feature-Large.jpg"
+      "img": "/static/img/Identity-Feature-Large.jpg",
+      "imgsmall": "/static/img/Identity-Feature-Large-sm.jpg"
     }]
   }
 }, {
@@ -333,15 +358,18 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Sketchbook-Hero.jpg",
+    "herosmall": "/static/img/Sketchbook-DetailsHero-sm.jpg",
     "about": "Design happens in sketchbooks, on loose leaves and napkins. The computer is simply a production tool. I sometimes get lucky and have a vision in my head where I can just go straight to my Mac, but most of the time, the genesis of ideas are started on paper.",
     "sections": [{
       "tag": "large",
       "p": "",
-      "img": "/static/img/Sketchbook-Feature-Large.jpg"
+      "img": "/static/img/Sketchbook-Feature-Large.jpg",
+      "imgsmall": "/static/img/Sketchbook-Feature-Large-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/Sketchbook-Feature-Large-2.jpg"
+      "img": "/static/img/Sketchbook-Feature-Large-2.jpg",
+      "imgsmall": "/static/img/Sketchbook-Feature-Large-2-sm.jpg"
     }, {
       "tag": "medium-rev",
       "p": "",
@@ -888,29 +916,112 @@ var style__default = /*#__PURE__*/__webpack_require__.n(style_);
 // CONCATENATED MODULE: ./components/WorkHero.js
 
 
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-var WorkHero_WorkHero = function WorkHero(props) {
-  return external__react__default.a.createElement("section", {
-    style: {
-      backgroundImage: "url(".concat(props.hero, ")")
-    },
-    className: "jsx-4093651631"
-  }, external__react__default.a.createElement("div", {
-    className: "jsx-4093651631" + " " + "hero-content container col-3"
-  }, props.children, external__react__default.a.createElement("div", {
-    className: "jsx-4093651631" + " " + "more"
-  }, external__react__default.a.createElement("img", {
-    src: "/static/img/more-arrow.svg",
-    className: "jsx-4093651631"
-  }))), external__react__default.a.createElement(style__default.a, {
-    styleId: "1395598727",
-    css: ["section.jsx-4093651631{top:-144px;background:#f1f1f1;width:100%;height:100vh;background-repeat:no-repeat;background-size:cover;background-position:bottom;}", ".hero-content.jsx-4093651631{display:grid;grid-template-rows:40% 40% 20%;height:100vh;}", ".more.jsx-4093651631{grid-row-start:3;-webkit-align-self:end;-ms-flex-item-align:end;align-self:end;-webkit-animation-name:more-arrow-jsx-4093651631;animation-name:more-arrow-jsx-4093651631;-webkit-animation-duration:3.75s;animation-duration:3.75s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;opacity:.5;}", "@-webkit-keyframes more-arrow-jsx-4093651631{0%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}50%{-webkit-transform:translateY(-16px);-ms-transform:translateY(-16px);transform:translateY(-16px);}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}}", "@keyframes more-arrow-jsx-4093651631{0%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}50%{-webkit-transform:translateY(-16px);-ms-transform:translateY(-16px);transform:translateY(-16px);}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}}"]
-  }), external__react__default.a.createElement(style__default.a, {
-    styleId: "120399457",
-    css: ["h1{font-weight:300;-webkit-letter-spacing:-0.03em;-moz-letter-spacing:-0.03em;-ms-letter-spacing:-0.03em;letter-spacing:-0.03em;font-size:6em;line-height:.92em;grid-column:span 3;margin:0;color:white;-webkit-align-self:end;-ms-flex-item-align:end;align-self:end;}", ".overview{color:white;grid-column:span 1;}", "@media screen and (max-width:1440px){h1{font-size:4.5em;}}", "@media screen and (max-width:600px){h1{font-size:3em;}section{top:-88px !important;height:100vh;background-position:bottom right !important;}.hero-content{-webkit-align-self:end;-ms-flex-item-align:end;align-self:end;grid-template-rows:65% 25% 10% !important;}.more img{height:4vh;}.overview{grid-column:span 2;}}"]
-  }));
-};
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var WorkHero_WorkHero =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(WorkHero, _React$Component);
+
+  function WorkHero(props) {
+    _classCallCheck(this, WorkHero);
+
+    return _possibleConstructorReturn(this, (WorkHero.__proto__ || Object.getPrototypeOf(WorkHero)).call(this, props));
+  }
+
+  _createClass(WorkHero, [{
+    key: "render",
+    value: function render() {
+      var bgImage;
+      this.props.size === 'large' ? bgImage = this.props.hero : bgImage = this.props.herosmall;
+      return external__react__default.a.createElement("section", {
+        style: {
+          backgroundImage: "url(".concat(bgImage, ")")
+        },
+        className: "jsx-1291583180"
+      }, external__react__default.a.createElement("div", {
+        className: "jsx-1291583180" + " " + "hero-content container col-3"
+      }, this.props.children, external__react__default.a.createElement("div", {
+        className: "jsx-1291583180" + " " + "more"
+      }, external__react__default.a.createElement("img", {
+        src: "/static/img/more-arrow.svg",
+        className: "jsx-1291583180"
+      }))), external__react__default.a.createElement(style__default.a, {
+        styleId: "1757729316",
+        css: ["section.jsx-1291583180{top:-144px;background:#f1f1f1;width:100%;height:100vh;background-repeat:no-repeat;background-size:cover;background-position:bottom;}", ".hero-content.jsx-1291583180{display:grid;grid-template-rows:40% 40% 20%;height:100vh;}", ".more.jsx-1291583180{grid-row-start:3;-webkit-align-self:end;-ms-flex-item-align:end;align-self:end;-webkit-animation-name:more-arrow-jsx-1291583180;animation-name:more-arrow-jsx-1291583180;-webkit-animation-duration:3.75s;animation-duration:3.75s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;opacity:.5;}", "@-webkit-keyframes more-arrow-jsx-1291583180{0%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}50%{-webkit-transform:translateY(-16px);-ms-transform:translateY(-16px);transform:translateY(-16px);}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}}", "@keyframes more-arrow-jsx-1291583180{0%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}50%{-webkit-transform:translateY(-16px);-ms-transform:translateY(-16px);transform:translateY(-16px);}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}}"]
+      }), external__react__default.a.createElement(style__default.a, {
+        styleId: "3166082657",
+        css: ["h1{font-weight:300;-webkit-letter-spacing:-0.03em;-moz-letter-spacing:-0.03em;-ms-letter-spacing:-0.03em;letter-spacing:-0.03em;font-size:6em;line-height:.92em;grid-column:span 3;margin:0;color:white;-webkit-align-self:end;-ms-flex-item-align:end;align-self:end;}", ".overview{color:white;grid-column:span 1;}", "@media screen and (max-width:1440px){h1{font-size:4.5em;}}", "@media screen and (max-width:600px){h1{font-size:3em;}section{top:-88px !important;height:100vh;background-position:center !important;}.hero-content{-webkit-align-self:end;-ms-flex-item-align:end;align-self:end;grid-template-rows:65% 25% 10% !important;}.more img{height:4vh;}.overview{grid-column:span 2;}}"]
+      }));
+    }
+  }]);
+
+  return WorkHero;
+}(external__react__default.a.Component);
+
+{
+  /*class WorkHero extends React.Component {
+   constructor(props) {
+     super(props);
+   }
+  
+   render() {
+     let bgImage;
+     (this.props.size === 'large') ? (
+       bgImage = this.props.hero
+     ) : (
+       bgImage = this.props.herosmall
+     )
+      return (
+       <section style={{ backgroundImage:`url(${this.props.hero})` }}>
+         <div className="hero-content container col-3">
+           {this.props.children}
+           <p>{this.props.size}</p>
+           <div className="more"><img src="/static/img/more-arrow.svg" /></div>
+         </div>
+         <style jsx>{`
+             section { top:-144px; background:#f1f1f1; width:100%; height:100vh; background-repeat:no-repeat; background-size:cover; background-position:bottom; }
+             .hero-content { display:grid; grid-template-rows:40% 40% 20%; height:100vh; }
+             .more { grid-row-start:3; align-self:end; animation-name:more-arrow; animation-duration:3.75s; animation-iteration-count:infinite; animation-timing-function: ease-in-out; opacity:.5; }
+              @keyframes more-arrow {
+               0% { transform:translateY(0); }
+               50% { transform:translateY(-16px); }
+               100% { transform:translateY(0); }
+             }
+         `}</style>
+         <style jsx global>{`
+           h1 { font-weight:300; letter-spacing:-0.03em; font-size:6em; line-height:.92em; grid-column:span 3; margin:0; color:white; align-self:end; }
+           .overview { color:white; grid-column:span 1; }
+            @media screen and (max-width:1440px) {
+             h1 { font-size:4.5em; }
+           }
+            @media screen and (max-width:600px) {
+             h1 { font-size:3em; }
+             section { top:-88px !important; height:100vh; background-position:bottom right !important; }
+             .hero-content { align-self:end; grid-template-rows:65% 25% 10% !important; }
+             .more img { height:4vh }
+             .overview { grid-column:span 2; }
+           }
+         `}</style>
+       </section>
+     )
+   }
+  }*/
+}
 /* harmony default export */ var components_WorkHero = (WorkHero_WorkHero);
 // CONCATENATED MODULE: ./components/MultiColumnItem.js
 
@@ -956,24 +1067,58 @@ var ContentMultiColumn_ContentMultiColumn = function ContentMultiColumn(props) {
 // CONCATENATED MODULE: ./components/ContentLargeFeature.js
 
 
+function ContentLargeFeature__typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { ContentLargeFeature__typeof = function _typeof(obj) { return typeof obj; }; } else { ContentLargeFeature__typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return ContentLargeFeature__typeof(obj); }
 
-var ContentLargeFeature_ContentLargeFeature = function ContentLargeFeature(props) {
-  return external__react__default.a.createElement("section", {
-    className: "jsx-3597169291"
-  }, external__react__default.a.createElement("div", {
-    style: {
-      backgroundImage: "url(".concat(props.hero, ")")
-    },
-    className: "jsx-3597169291" + " " + "container light-gray grid col-3"
-  }, external__react__default.a.createElement("div", {
-    className: "jsx-3597169291" + " " + "align-center"
-  }, external__react__default.a.createElement("p", {
-    className: "jsx-3597169291"
-  }, props.children))), external__react__default.a.createElement(style__default.a, {
-    styleId: "3597169291",
-    css: ["p.jsx-3597169291{padding:0 14%;}", ".container.jsx-3597169291{background-position:center;background-size:cover;}", "section.jsx-3597169291{margin-bottom:15vh;}", "@media screen and (max-width:1440px){.container.jsx-3597169291{background-position:75% 45%;}}", "@media screen and (max-width:600px){.align-center.jsx-3597169291{grid-column:span 3;-webkit-align-self:end;-ms-flex-item-align:end;align-self:end;}p.jsx-3597169291{padding:20px 20px 30px;line-height:1.25em;margin-bottom:0;}section.jsx-3597169291{margin-bottom:10vh;}.container.jsx-3597169291{background-size:200%;background-position:75% 60%;}}"]
-  }));
-};
+function ContentLargeFeature__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function ContentLargeFeature__defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function ContentLargeFeature__createClass(Constructor, protoProps, staticProps) { if (protoProps) ContentLargeFeature__defineProperties(Constructor.prototype, protoProps); if (staticProps) ContentLargeFeature__defineProperties(Constructor, staticProps); return Constructor; }
+
+function ContentLargeFeature__possibleConstructorReturn(self, call) { if (call && (ContentLargeFeature__typeof(call) === "object" || typeof call === "function")) { return call; } return ContentLargeFeature__assertThisInitialized(self); }
+
+function ContentLargeFeature__assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function ContentLargeFeature__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var ContentLargeFeature_ContentLargeFeature =
+/*#__PURE__*/
+function (_React$Component) {
+  ContentLargeFeature__inherits(ContentLargeFeature, _React$Component);
+
+  function ContentLargeFeature(props) {
+    ContentLargeFeature__classCallCheck(this, ContentLargeFeature);
+
+    return ContentLargeFeature__possibleConstructorReturn(this, (ContentLargeFeature.__proto__ || Object.getPrototypeOf(ContentLargeFeature)).call(this, props));
+  }
+
+  ContentLargeFeature__createClass(ContentLargeFeature, [{
+    key: "render",
+    value: function render() {
+      var bgImage;
+      this.props.size === 'large' ? bgImage = this.props.hero : bgImage = this.props.herosmall;
+      return external__react__default.a.createElement("section", {
+        className: "jsx-1128585507"
+      }, external__react__default.a.createElement("div", {
+        style: {
+          backgroundImage: "url(".concat(bgImage, ")")
+        },
+        className: "jsx-1128585507" + " " + "container light-gray grid col-3"
+      }, external__react__default.a.createElement("div", {
+        className: "jsx-1128585507" + " " + "align-center"
+      }, external__react__default.a.createElement("p", {
+        className: "jsx-1128585507"
+      }, this.props.children))), external__react__default.a.createElement(style__default.a, {
+        styleId: "1128585507",
+        css: ["p.jsx-1128585507{padding:0 14%;}", ".container.jsx-1128585507{background-position:center;background-size:cover;}", "section.jsx-1128585507{margin-bottom:15vh;}", "@media screen and (max-width:1440px){.container.jsx-1128585507{background-position:75% 45%;}}", "@media screen and (max-width:600px){.align-center.jsx-1128585507{grid-column:span 3;-webkit-align-self:end;-ms-flex-item-align:end;align-self:end;}p.jsx-1128585507{padding:20px 12.5% 30px;margin-bottom:0;}section.jsx-1128585507{margin-bottom:10vh;}.container.jsx-1128585507{background-size:cover;background-position:center;}}"]
+      }));
+    }
+  }]);
+
+  return ContentLargeFeature;
+}(external__react__default.a.Component);
 
 /* harmony default export */ var components_ContentLargeFeature = (ContentLargeFeature_ContentLargeFeature);
 // CONCATENATED MODULE: ./components/ContentMediumFeature.js
@@ -1051,19 +1196,19 @@ var Pieces = __webpack_require__(3);
 var NavPieces = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./pages/work.js
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+function work__typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { work__typeof = function _typeof(obj) { return typeof obj; }; } else { work__typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return work__typeof(obj); }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function work__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+function work__defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+function work__createClass(Constructor, protoProps, staticProps) { if (protoProps) work__defineProperties(Constructor.prototype, protoProps); if (staticProps) work__defineProperties(Constructor, staticProps); return Constructor; }
 
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+function work__possibleConstructorReturn(self, call) { if (call && (work__typeof(call) === "object" || typeof call === "function")) { return call; } return work__assertThisInitialized(self); }
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+function work__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function work__assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 
 
@@ -1080,14 +1225,14 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 var work_Work =
 /*#__PURE__*/
 function (_React$Component) {
-  _inherits(Work, _React$Component);
+  work__inherits(Work, _React$Component);
 
   function Work(props) {
     var _this;
 
-    _classCallCheck(this, Work);
+    work__classCallCheck(this, Work);
 
-    _this = _possibleConstructorReturn(this, (Work.__proto__ || Object.getPrototypeOf(Work)).call(this, props));
+    _this = work__possibleConstructorReturn(this, (Work.__proto__ || Object.getPrototypeOf(Work)).call(this, props));
     _this.state = {
       "Piece": []
     };
@@ -1097,11 +1242,14 @@ function (_React$Component) {
     _this.state = {
       "PieceID": Number()
     };
-    _this.placeComponent = _this.placeComponent.bind(_assertThisInitialized(_this));
+    _this.placeComponent = _this.placeComponent.bind(work__assertThisInitialized(_this));
+    _this.state = {
+      "Screen": ""
+    };
     return _this;
   }
 
-  _createClass(Work, [{
+  work__createClass(Work, [{
     key: "componentWillMount",
     value: function componentWillMount() {
       var _this2 = this;
@@ -1115,6 +1263,19 @@ function (_React$Component) {
       this.setState({
         PieceID: Number(this.props.url.query.id)
       });
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      if (window.innerWidth > 600) {
+        this.setState({
+          Screen: "large"
+        });
+      } else {
+        this.setState({
+          Screen: "small"
+        });
+      }
     }
   }, {
     key: "placeComponent",
@@ -1137,7 +1298,9 @@ function (_React$Component) {
 
         case 'large':
           return external__react__default.a.createElement(components_ContentLargeFeature, {
-            hero: this.state.Piece.details.sections[key].img
+            hero: this.state.Piece.details.sections[key].img,
+            herosmall: this.state.Piece.details.sections[key].imgsmall,
+            size: this.state.Screen
           }, this.state.Piece.details.sections[key].p);
 
         case 'medium':
@@ -1172,7 +1335,9 @@ function (_React$Component) {
       var sectionId = Number();
       var sectionDetails = [];
       return external__react__default.a.createElement(MyLayout["a" /* default */], null, external__react__default.a.createElement(components_WorkHero, {
-        hero: "".concat(piece.details.hero)
+        hero: "".concat(piece.details.hero),
+        herosmall: "".concat(piece.details.herosmall),
+        size: this.state.Screen
       }, external__react__default.a.createElement("h1", null, piece.name), external__react__default.a.createElement("div", {
         className: "overview"
       }, external__react__default.a.createElement("p", null, piece.details.about))), Object.keys(piece.details.sections).map(function (key) {

@@ -102,15 +102,18 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Empower-DetailsHero.jpg",
+    "herosmall": "/static/img/Empower-DetailsHero-sm.jpg",
     "about": "Home energy inefficiencies cost homeowners hundreds to thousands of dollars per year, on top of their energy utility bills. Empower uses sophisticated algorithms to analyze utility and public data to sniff out where a home is losing its energy.",
     "sections": [{
       "tag": "large",
       "p": "By entering in your home’s address, Empower accesses data from home energy providers, county auditors, and NOAA.",
-      "img": "/static/img/Empower-Feature-Large-1.jpg"
+      "img": "/static/img/Empower-Feature-Large-1.jpg",
+      "imgsmall": "/static/img/Empower-Feature-Large-1-sm.jpg"
     }, {
       "tag": "large",
       "p": "Data science provides insight into your home’s energy use and offers products and services to mitigate the issues.",
-      "img": "/static/img/Empower-Feature-Large-2.jpg"
+      "img": "/static/img/Empower-Feature-Large-2.jpg",
+      "imgsmall": "/static/img/Empower-Feature-Large-2-sm.jpg"
     }, {
       "tag": "text",
       "headline": "My Involvement",
@@ -126,11 +129,13 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Silentnight-DetailsHero.jpg",
+    "herosmall": "/static/img/Silentnight-DetailsHero-sm.jpg",
     "about": "Despite dominance of market share—by a considerable margin—Silentnight was feeling the pressure from new direct-to-consumer options like Casper and Leesa. They needed help to ditch the manufacturer paradigm and begin selling directly to buyers.",
     "sections": [{
       "tag": "large",
       "p": "",
-      "img": "/static/img/Silentnight-Feature-Large.jpg"
+      "img": "/static/img/Silentnight-Feature-Large.jpg",
+      "imgsmall": "/static/img/Silentnight-Feature-Large-sm.jpg"
     }, {
       "tag": "text",
       "headline": "My Involvement",
@@ -148,6 +153,7 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/MyWendys-DetailsHero.jpg",
+    "herosmall": "/static/img/MyWendys-DetailsHero-sm.jpg",
     "about": "Just prior to the lunch hour, wendys.com saw traffic spiking to their nutrition information pages. The MyWendy’s app was born from this insight to make that information accessible for those standing in or going through the drive-thru.",
     "sections": [{
       "tag": "columns",
@@ -163,7 +169,8 @@ var Pieces = [{
     }, {
       "tag": "large",
       "p": "After field tests and pilots in two local markets, Wendy’s became the first QSR to launch mobile payment nationwide.",
-      "img": "/static/img/MyWendys-Pay.jpg"
+      "img": "/static/img/MyWendys-Pay.jpg",
+      "imgsmall": "/static/img/MyWendys-Pay-sm.jpg"
     }, {
       "tag": "medium",
       "img": "/static/img/MyWendys-Personalization.jpg",
@@ -183,6 +190,7 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/BN-DetailsHero.jpg",
+    "herosmall": "/static/img/BN-DetailsHero-sm.jpg",
     "about": "Like many retailers, Barnes&Noble was struggling to keep pace with the likes of Amazon and other large-scale e-tailers.",
     "sections": [{
       "tag": "text",
@@ -191,7 +199,8 @@ var Pieces = [{
     }, {
       "tag": "large",
       "p": "More than an e-commerce redesign, content was used to help readers uncover the books they didn't even know they yet wanted to read.",
-      "img": "/static/img/BN-Large-Feature-2.jpg"
+      "img": "/static/img/BN-Large-Feature-2.jpg",
+      "imgsmall": "/static/img/BN-Large-Feature-2-sm.jpg"
     }, {
       "tag": "columns",
       "img1": "/static/img/BN-Search.jpg",
@@ -206,7 +215,8 @@ var Pieces = [{
     }, {
       "tag": "large",
       "p": "Most samples of books are limited to front matter, not the actual story. Like one can in their bricks and mortars, we pushed to offer more accessible samples.",
-      "img": "/static/img/BN-Large-Feature-1.jpg"
+      "img": "/static/img/BN-Large-Feature-1.jpg",
+      "imgsmall": "/static/img/BN-Large-Feature-1-sm.jpg"
     }, {
       "tag": "text",
       "headline": "My Involvement",
@@ -222,11 +232,13 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Hersheys-DetailsHero.jpg",
+    "herosmall": "/static/img/Hersheys-DetailsHero-sm.jpg",
     "about": "The Hershey’s Company were experiencing a decline in sales of their premium brands and needed help prototyping experiences that could breathe new life into their product line.",
     "sections": [{
       "tag": "large",
       "p": "A new culinary program provided an opportunity to infuse premium Hershey’s chocolates into subscription based, chef-prepared meal kits.",
-      "img": "/static/img/Hersheys-Large-Feature-1.jpg"
+      "img": "/static/img/Hersheys-Large-Feature-1.jpg",
+      "imgsmall": "/static/img/Hersheys-Large-Feature-1-sm.jpg"
     }, {
       "tag": "columns",
       "img1": "/static/img/Hersheys-Experience.jpg",
@@ -241,7 +253,8 @@ var Pieces = [{
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/Hersheys-Large-Feature-2.jpg"
+      "img": "/static/img/Hersheys-Large-Feature-2.jpg",
+      "imgsmall": "/static/img/Hersheys-Large-Feature-2-sm.jpg"
     }, {
       "tag": "text",
       "headline": "My Involvement",
@@ -257,15 +270,18 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Looped-DetailsHero.jpg",
+    "herosmall": "/static/img/Looped-DetailsHero-sm.jpg",
     "about": "Before Columbus, OH was awarded Smart City by the US Department of Transportation in 2016, Looped Transit collaborated with the City on a ride-sharing program.",
     "sections": [{
       "tag": "large",
       "p": "Application Flows",
-      "img": "/static/img/Looped-Large-Feature.jpg"
+      "img": "/static/img/Looped-Large-Feature.jpg",
+      "imgsmall": "/static/img/Looped-Large-Feature-sm.jpg"
     }, {
       "tag": "large",
       "p": "Annotated Wireframes",
-      "img": "/static/img/Looped-Large-Feature-2.jpg"
+      "img": "/static/img/Looped-Large-Feature-2.jpg",
+      "imgsmall": "/static/img/Looped-Large-Feature-2-sm.jpg"
     }, {
       "tag": "text",
       "headline": "My Involvement",
@@ -281,23 +297,28 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/VisCom-Hero.jpg",
-    "about": "Though digital has been in my blood since I first played on the internet in 1995, I was formally trained in Visual Communication Design. This training was the foundation of my transition into digital experience.",
+    "herosmall": "/static/img/VisCom-DetailsHero-sm.jpg",
+    "about": "Though digital has been in my blood since I first played on the internet in 1995, I was formally trained in Visual Communication Design. This training was the foundation for the visual design and information architecture that is brought to my work.",
     "sections": [{
       "tag": "large",
       "p": "",
-      "img": "/static/img/VisCom-Feature-Alacrity.jpg"
+      "img": "/static/img/VisCom-Feature-Alacrity.jpg",
+      "imgsmall": "/static/img/VisCom-Feature-Alacrity-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/VisCom-Feature-Dre.jpg"
+      "img": "/static/img/VisCom-Feature-Dre.jpg",
+      "imgsmall": "/static/img/VisCom-Feature-Dre-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/VisCom-Feature-Key.jpg"
+      "img": "/static/img/VisCom-Feature-Key.jpg",
+      "imgsmall": "/static/img/VisCom-Feature-Key-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/VisCom-Feature-Aesthetics.jpg"
+      "img": "/static/img/VisCom-Feature-Aesthetics.jpg",
+      "imgsmall": "/static/img/VisCom-Feature-Aesthetics-sm.jpg"
     }]
   }
 }, {
@@ -309,19 +330,23 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Identity-Hero.jpg",
-    "about": "I love typography. I love shape making. I love bringing the two together to create identities.",
+    "herosmall": "/static/img/Identity-DetailsHero-sm.jpg",
+    "about": "Visual identity is the cornerstone of brand communication & expression. Without it, personality is washed away in the sea of sameness. The craft of visual identity melds together two of my favorite design components, typography and precision shape making.",
     "sections": [{
       "tag": "large",
       "p": "",
-      "img": "/static/img/Identity-Feature-Large-3.jpg"
+      "img": "/static/img/Identity-Feature-Large-3.jpg",
+      "imgsmall": "/static/img/Identity-Feature-Large-3-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/Identity-Feature-Large-2.jpg"
+      "img": "/static/img/Identity-Feature-Large-2.jpg",
+      "imgsmall": "/static/img/Identity-Feature-Large-2-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/Identity-Feature-Large.jpg"
+      "img": "/static/img/Identity-Feature-Large.jpg",
+      "imgsmall": "/static/img/Identity-Feature-Large-sm.jpg"
     }]
   }
 }, {
@@ -333,15 +358,18 @@ var Pieces = [{
   "previewCTA": "View project details",
   "details": {
     "hero": "/static/img/Sketchbook-Hero.jpg",
+    "herosmall": "/static/img/Sketchbook-DetailsHero-sm.jpg",
     "about": "Design happens in sketchbooks, on loose leaves and napkins. The computer is simply a production tool. I sometimes get lucky and have a vision in my head where I can just go straight to my Mac, but most of the time, the genesis of ideas are started on paper.",
     "sections": [{
       "tag": "large",
       "p": "",
-      "img": "/static/img/Sketchbook-Feature-Large.jpg"
+      "img": "/static/img/Sketchbook-Feature-Large.jpg",
+      "imgsmall": "/static/img/Sketchbook-Feature-Large-sm.jpg"
     }, {
       "tag": "large",
       "p": "",
-      "img": "/static/img/Sketchbook-Feature-Large-2.jpg"
+      "img": "/static/img/Sketchbook-Feature-Large-2.jpg",
+      "imgsmall": "/static/img/Sketchbook-Feature-Large-2-sm.jpg"
     }, {
       "tag": "medium-rev",
       "p": "",
@@ -878,142 +906,142 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_MyLayout__["a" /* default */], null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-    className: "jsx-284332069" + " " + "container"
+    className: "jsx-1795547451" + " " + "container"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("section", {
-    className: "jsx-284332069" + " " + "a-spot grid col-2"
+    className: "jsx-1795547451" + " " + "a-spot grid col-2"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h1", {
-    className: "jsx-284332069" + " " + "align-center"
+    className: "jsx-1795547451" + " " + "align-center"
   }, "A Little", __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }), "About Me"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Simply put, I believe a brand\u2019s actions speak louder than their words (though, those certainly matter too). Human-centered design in the modern enterprise brings competitive advantage by discovering customers\u2019 latent needs and subsequently delivering desirable customer experiences. And, when design and data science come together, smart systems seamlessly drive personalized, data-driven touchpoints and adding meaningful value to people\u2019s lives. To me, that\u2019s the quintessence of design."), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-    className: "jsx-284332069" + " " + "portrait-container"
+    className: "jsx-1795547451" + " " + "portrait-container"
   })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("section", {
-    className: "jsx-284332069" + " " + "grid col-2"
+    className: "jsx-1795547451" + " " + "grid col-2"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-    className: "jsx-284332069" + " " + "align-center"
+    className: "jsx-1795547451" + " " + "align-center"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h2", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Life"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "I am living the suburban dream with my wife, Aricka and my kids, Kaity (7) & Von (5) in a very confused part of Columbus\u2014Columbus address, Gahanna ZIP code, and Westerville School District."), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("ul", {
-    className: "jsx-284332069" + " " + "decompress"
+    className: "jsx-1795547451" + " " + "decompress"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h3", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "How I decompress"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Writing & recording music"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Playing video games with the kids"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Riding my motorcycle"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Playing (ice) hockey")))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("section", {
-    className: "jsx-284332069" + " " + "grid col-2"
+    className: "jsx-1795547451" + " " + "grid col-2"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-    className: "jsx-284332069" + " " + "align-center"
+    className: "jsx-1795547451" + " " + "align-center"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h2", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Career"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "I began my design career in The School of Visual Communication Design at Kent State University, earning scholarships for my work and receiving multiple professional accolades all before graduation. After obtaining my Master of Arts\u2014where graduate research focused on digital product design and design education\u2014I\u2019ve spent 14 years in the agency world producing creative solutions that drive business results."), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Throughout my career, I\u2019ve worked with organizations large and small, ranging from Fortune 100 companies to local businesses and non-profits. My client work spans multiple industries for brands including P&G, Barnes&Noble, Wendy\u2019s, Shaw Floors, Sherwin-Williams, Steelcase, OhioHealth, Hershey\u2019s, Rockwell Automation, Victoria\u2019s Secret, HP, Scotts Miracle-Gro, IGS Energy, and many more."), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Now, I\u2019m looking to transition from digital marketing and narrow my focus on product & service design."))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("section", {
-    className: "jsx-284332069" + " " + "grid col-2 auto-height"
+    className: "jsx-1795547451" + " " + "grid col-2 auto-height"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-    className: "jsx-284332069" + " " + "align-center"
+    className: "jsx-1795547451" + " " + "align-center"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h2", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Professional Accumen"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-    className: "jsx-284332069" + " " + "grid col-2 column-gutter row-gutter list"
+    className: "jsx-1795547451" + " " + "grid col-2 column-gutter row-gutter list"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("ul", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h3", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Design"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Design Strategy"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Customer Experience"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "User Experience"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "User Interface"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Interaction"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Atomic Design & Design Systems"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Graphic Design")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("ul", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h3", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Technology"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "HTML"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "CSS"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "JavaScript"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "WordPress"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "React"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Next JS"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Swift"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "PHP"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "MySQL"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "jQuery"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "ActionScript")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("ul", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h3", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Methodologies"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Design Thinking"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Lean UX"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Agile (SCRUM)")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("ul", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h3", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Software"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Sketch"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Invision (Studio)"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Adobe CC"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Office 365"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "XCode"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Atom"))))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("section", {
-    className: "jsx-284332069" + " " + "grid col-2 auto-height"
+    className: "jsx-1795547451" + " " + "grid col-2 auto-height"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
     "class": "align-center",
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h2", {
-    className: "jsx-284332069"
+    className: "jsx-1795547451"
   }, "Site details"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
-    className: "jsx-284332069"
-  }, "This site was designed on paper\u2014okay, the digital paper known as iPad Pro\u2014and produced in Sketch. I then built this in ReactJS, so if it\u2019s a little buggy, please forgive me. I\u2019m more of a prototype developer and you probably don\u2019t want me pushing your production-level code. I wanted to learn React and see what all the ado was about, so this is the first thing I\u2019ve made with it. I highly anticipate refactoring about 75% of this code now that I\u2019ve shipped something. \uD83D\uDC4D")))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-    styleId: "580340089",
-    css: []
+    className: "jsx-1795547451"
+  }, "This site was designed on paper\u2014okay, the digital paper known as iPad Pro\u2014and produced in Sketch. I then built this in React JS/Next JS, so if it\u2019s a little buggy, please forgive me. I\u2019m more of a prototype developer and you probably don\u2019t want me pushing your production-level code. I wanted to learn React and see what all the ado was about, so this is the first thing I\u2019ve made with it. I highly anticipate refactoring about 75% of this code now that I\u2019ve shipped something. \uD83D\uDC4D")))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+    styleId: "4190320709",
+    css: ["footer{position:absolute;width:100%;}"]
   }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-    styleId: "2004957141",
-    css: [".portrait-container.jsx-284332069{position:fixed;width:100vw;height:100vh;top:0;background-image:url('/static/img/portrait.jpg');background-repeat:no-repeat;background-position:bottom right;background-size:50%;}", "footer.jsx-284332069{position:absolute;width:100%;}", ".a-spot.jsx-284332069{margin:0;}", ".a-spot.jsx-284332069 h1.jsx-284332069,.a-spot.jsx-284332069 p.jsx-284332069{position:relative;z-index:1000;}", "h1.jsx-284332069{font-weight:300;text-transform:uppercase;font-size:9em;line-height:.92em;grid-column:span 2;margin:0;}", "ul.jsx-284332069{list-style:none;margin:0;padding:0;}", "li.jsx-284332069{font-weight:300;font-size:1.5em;padding:.5em 0;border-top:1px solid #d2d2d2;}", "li.jsx-284332069:last-child{border-bottom:1px solid #d2d2d2;}", "ul.decompress.jsx-284332069{width:50%;}", "@media screen and (max-width:1440px){h1.jsx-284332069{font-size:6em !important;}li.jsx-284332069{font-size:1.25em !important;}}", "@media screen and (max-width:1024px){.portrait-container.jsx-284332069{background-size:auto 45%;}h1.jsx-284332069{font-size:3em !important;}section.jsx-284332069{height:auto !important;}li.jsx-284332069{font-size:1em;font-weight:500;}.list.jsx-284332069{grid-template-columns:1fr !important;}ul.decompress.jsx-284332069{width:100%;}}"]
+    styleId: "2109494903",
+    css: [".portrait-container.jsx-1795547451{position:fixed;width:75vw;height:100vh;top:0;right:0;background-image:url('/static/img/portrait.jpg');background-repeat:no-repeat;background-position:bottom right;background-size:50%;}", ".a-spot.jsx-1795547451{margin:0;}", ".a-spot.jsx-1795547451 h1.jsx-1795547451,.a-spot.jsx-1795547451 p.jsx-1795547451{position:relative;z-index:1000;}", "h1.jsx-1795547451{font-weight:300;text-transform:uppercase;font-size:9em;line-height:.92em;grid-column:span 2;margin:0;}", "ul.jsx-1795547451{list-style:none;margin:0;padding:0;}", "li.jsx-1795547451{font-weight:300;font-size:1.5em;padding:.5em 0;border-top:1px solid #d2d2d2;}", "li.jsx-1795547451:last-child{border-bottom:1px solid #d2d2d2;}", "ul.decompress.jsx-1795547451{width:50%;}", "@media screen and (max-width:1440px){h1.jsx-1795547451{font-size:6em !important;}li.jsx-1795547451{font-size:1.25em !important;}}", "@media screen and (max-width:600px){.grid.col-2.jsx-1795547451{grid-template-columns:1fr !important;}footer.jsx-1795547451{position:relative;}.a-spot.jsx-1795547451{display:block;margin-bottom:10vh;width:auto;}.portrait-container.jsx-1795547451{position:relative;background-size:100%;width:100vw;background-position:top center;height:40vh;}h1.jsx-1795547451{font-size:3em !important;}section.jsx-1795547451{height:auto !important;}li.jsx-1795547451{font-size:1em;font-weight:500;}.list.jsx-1795547451{grid-template-columns:1fr !important;}ul.decompress.jsx-1795547451{width:100%;}}"]
   }));
 });
 
