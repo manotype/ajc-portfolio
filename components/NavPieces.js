@@ -31,7 +31,7 @@ class NavPieces extends React.Component {
       (piece.id === this.props.id) ? ( active = "active" ) : ( active = "" )
 
       return (
-        <div className={`piece-container ${active}`}>
+        <div key={piece.id} className={`piece-container ${active}`}>
           <a href={`/work?id=${piece.id}`}>
             <img src={piece.thumb} />
           </a>

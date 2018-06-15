@@ -43,20 +43,20 @@ class Work extends React.Component {
     switch(sectionTag) {
       case 'columns':
         return (
-        <ContentMultiColumn>
+        <ContentMultiColumn key={key}>
           <MultiColumnItem img={this.state.Piece.details.sections[key].img1} caption={this.state.Piece.details.sections[key].caption1} copy={this.state.Piece.details.sections[key].copy1} />
           <MultiColumnItem img={this.state.Piece.details.sections[key].img2} caption={this.state.Piece.details.sections[key].caption2} copy={this.state.Piece.details.sections[key].copy2}  />
           <MultiColumnItem img={this.state.Piece.details.sections[key].img3} caption={this.state.Piece.details.sections[key].caption3} copy={this.state.Piece.details.sections[key].copy3}  />
         </ContentMultiColumn>
         )
       case 'large':
-        return <ContentLargeFeature hero={this.state.Piece.details.sections[key].img} herosmall={this.state.Piece.details.sections[key].imgsmall} size={this.state.Screen}>{this.state.Piece.details.sections[key].p}</ContentLargeFeature>
+        return <ContentLargeFeature key={key} hero={this.state.Piece.details.sections[key].img} herosmall={this.state.Piece.details.sections[key].imgsmall} size={this.state.Screen}>{this.state.Piece.details.sections[key].p}</ContentLargeFeature>
       case 'medium':
-        return <ContentMediumFeature hero={this.state.Piece.details.sections[key].img}>{this.state.Piece.details.sections[key].p}</ContentMediumFeature>
+        return <ContentMediumFeature key={key} hero={this.state.Piece.details.sections[key].img}>{this.state.Piece.details.sections[key].p}</ContentMediumFeature>
       case 'medium-rev':
-        return <ContentMediumFeatureRev hero={this.state.Piece.details.sections[key].img}>{this.state.Piece.details.sections[key].p}</ContentMediumFeatureRev>
+        return <ContentMediumFeatureRev key={key} hero={this.state.Piece.details.sections[key].img}>{this.state.Piece.details.sections[key].p}</ContentMediumFeatureRev>
       case 'text':
-        return <ContentText headline={this.state.Piece.details.sections[key].headline} copy={this.state.Piece.details.sections[key].copy}>{ (this.state.Piece.details.sections[key].result) ? (<p><span className="statistic">{this.state.Piece.details.sections[key].result}</span><span className="caption">{this.state.Piece.details.sections[key].caption}</span></p>) : ('') }</ContentText>
+        return <ContentText key={key} headline={this.state.Piece.details.sections[key].headline} copy={this.state.Piece.details.sections[key].copy}>{ (this.state.Piece.details.sections[key].result) ? (<p><span className="statistic">{this.state.Piece.details.sections[key].result}</span><span className="caption">{this.state.Piece.details.sections[key].caption}</span></p>) : ('') }</ContentText>
     }
   }
 

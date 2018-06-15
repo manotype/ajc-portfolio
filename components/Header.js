@@ -9,8 +9,9 @@ const Header = () => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Aaron J Cook Design &middot; Columbus, OH</title>
+      <script src="https://use.typekit.net/sro1pcj.js" />
+      <script dangerouslySetInnerHTML={{ __html: 'try{Typekit.load({ async: false });}catch(e){}' }} />
     </Head>
-    <Typekit kitId="sro1pcj" />
     <style jsx global>{`
       @font-face { font-family: "ajcFont"; font-weight:500; src:url('/static/fonts/akk-reg.otf'); }
       @font-face { font-family: "ajcFont"; font-weight:300; src:url('/static/fonts/akk-light.otf'); }

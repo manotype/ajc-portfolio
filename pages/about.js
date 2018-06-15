@@ -81,7 +81,7 @@ export default () => (
         </div>
       </section>
       <section className="grid col-2 auto-height">
-        <div class="align-center">
+        <div className="align-center">
           <h2>Site details</h2>
           <p>This site was designed on paper—okay, the digital paper known as iPad Pro—and produced in Sketch. I then built this in React JS/Next JS, so if it’s a little buggy, please forgive me. I’m more of a prototype developer and you probably don’t want me pushing your production-level code. I wanted to learn React and see what all the ado was about, so this is the first thing I’ve made with it. I highly anticipate refactoring about 75% of this code now that I’ve shipped something. 👍</p>
         </div>
