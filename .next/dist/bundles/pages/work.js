@@ -476,6 +476,7 @@ function (_React$Component) {
       var pieceDisplay = pieceData.map(function (piece) {
         piece.id === _this2.props.id ? active = "active" : active = "";
         return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+          key: piece.id,
           className: "jsx-2466460422" + " " + "piece-container ".concat(active)
         }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
           href: "/work?id=".concat(piece.id),
@@ -545,9 +546,15 @@ var Header_Header = function Header() {
     className: "jsx-3384152417"
   }), external__react__default.a.createElement("title", {
     className: "jsx-3384152417"
-  }, "Aaron J Cook Design \xB7 Columbus, OH")), external__react__default.a.createElement(external__react_typekit__default.a, {
-    kitId: "sro1pcj"
-  }), external__react__default.a.createElement(style__default.a, {
+  }, "Aaron J Cook Design \xB7 Columbus, OH"), external__react__default.a.createElement("script", {
+    src: "https://use.typekit.net/sro1pcj.js",
+    className: "jsx-3384152417"
+  }), external__react__default.a.createElement("script", {
+    dangerouslySetInnerHTML: {
+      __html: 'try{Typekit.load({ async: false });}catch(e){}'
+    },
+    className: "jsx-3384152417"
+  })), external__react__default.a.createElement(style__default.a, {
     styleId: "3384152417",
     css: ["@font-face{font-family:\"ajcFont\";font-weight:500;src:url('/static/fonts/akk-reg.otf');}", "@font-face{font-family:\"ajcFont\";font-weight:300;src:url('/static/fonts/akk-light.otf');}", "@font-face{font-family:\"ajcFont\";font-weight:700;src:url('/static/fonts/akk-bold.otf');}", "body{margin:0;padding-top:144px;font-family:\"ajcFont\",\"Helvetica\",\"Arial\";color:#4a4a4a;}", "*{box-sizing:border-box;}", "@-webkit-keyframes fade-in{from{opacity:0;-webkit-transform:translateY(-1.5%);-ms-transform:translateY(-1.5%);transform:translateY(-1.5%);}to{opacity:1;-webkit-transform:translateY(0%);-ms-transform:translateY(0%);transform:translateY(0%);}}", "@keyframes fade-in{from{opacity:0;-webkit-transform:translateY(-1.5%);-ms-transform:translateY(-1.5%);transform:translateY(-1.5%);}to{opacity:1;-webkit-transform:translateY(0%);-ms-transform:translateY(0%);transform:translateY(0%);}}", ".nav-menu{position:absolute;top:0;width:100%;padding:12vh 0;background-color:rgba(255,255,255,.97);height:100vh;-webkit-animation-name:fade-in;animation-name:fade-in;-webkit-animation-duration:.5s;animation-duration:.5s;}", ".menu-button img{height:100%;}", "button:focus{outline-color:#f2f2f2;}", "section{height:80vh;margin:0 0 10vh;position:relative;}", "section.auto-height{height:auto;}", ".container{width:92%;max-width:1600px;margin:0 auto;height:100%;}", ".light-gray{background-color:#f2f2f2;}", ".grid{display:grid;}", ".col-2{grid-template-columns:1fr 1fr;}", ".col-3{grid-template-columns:1fr 1fr 1fr;}", ".col-4{grid-template-columns:1fr 1fr 1fr 1fr;}", ".col-5{grid-template-columns:1fr 1fr 1fr 1fr 1fr;}", ".row-2{grid-template-rows:1fr 1fr;}", ".row-3{grid-template-rows:1fr 1fr 1fr;}", ".column-gutter{grid-column-gap:32px;}", ".row-gutter{grid-row-gap:32px;}", ".align-center{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}", ".justify-center{justify-self:center;}", "a:link,a:active,a:visited{-webkit-text-decoration:none;text-decoration:none;color:#4a4a4a;font-family:\"freight-text-pro\";font-weight:400;font-style:italic;font-size:1.125em;-webkit-letter-spacing:.025em;-moz-letter-spacing:.025em;-ms-letter-spacing:.025em;letter-spacing:.025em;}", "a.button{border-bottom:2px solid #F5D123;}", "a.button.gray{border-bottom:2px solid #9b9b9b;}", "a.button:before{display:inline-block;content:'';background-color:#f5d123;width:1em;height:1em;margin-right:.5em;}", "a.button.gray:before{background-color:#9b9b9b;}", "a.button:hover{opacity:0.65;}", "h2{font-size:2em;font-weight:500;-webkit-letter-spacing:.02em;-moz-letter-spacing:.02em;-ms-letter-spacing:.02em;letter-spacing:.02em;}", "h3{font-size:1.5em;font-weight:500;text-transform:uppercase;}", "p{font-size:1.5em;font-weight:300;line-height:1.75em;}", ".statistic{display:block;font-weight:300;font-size:6em;line-height:1em;color:#F5D123;}", ".caption{font-weight:500;font-size:.875em;-webkit-letter-spacing:.03em;-moz-letter-spacing:.03em;-ms-letter-spacing:.03em;letter-spacing:.03em;text-transform:uppercase;color:#F5D123;}", "@media screen and (max-width:1440px){p{font-size:1.25em;}.col-4{grid-template-columns:1fr 1fr 1fr 1fr !important;}}", "@media screen and (max-width:600px){body{padding-top:88px;}header{height:88px !important;min-height:64px !important;}section{margin:0 0 5vh;}.container{width:92%;}.col-2,.col-3,.col-4,.col-5{grid-template-columns:1fr 1fr !important;}.column-gutter{grid-column-gap:20px;}.row-gutter{grid-row-gap:20px;}h2{font-size:1.25rem !important;}h3{font-size:1.125rem !important;}p{font-size:1em;}.statistic{font-size:4em;}.previews-container{grid-template-columns:1fr !important;}}"]
   }));
@@ -861,6 +868,7 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return external__react__default.a.createElement("div", {
+        key: "1000000000000000000000",
         className: "wrapper"
       }, external__react__default.a.createElement(components_Header, null), external__react__default.a.createElement(Navigation, null), this.props.children, external__react__default.a.createElement(components_Footer, null));
     }
@@ -973,55 +981,6 @@ function (_React$Component) {
   return WorkHero;
 }(external__react__default.a.Component);
 
-{
-  /*class WorkHero extends React.Component {
-   constructor(props) {
-     super(props);
-   }
-  
-   render() {
-     let bgImage;
-     (this.props.size === 'large') ? (
-       bgImage = this.props.hero
-     ) : (
-       bgImage = this.props.herosmall
-     )
-      return (
-       <section style={{ backgroundImage:`url(${this.props.hero})` }}>
-         <div className="hero-content container col-3">
-           {this.props.children}
-           <p>{this.props.size}</p>
-           <div className="more"><img src="/static/img/more-arrow.svg" /></div>
-         </div>
-         <style jsx>{`
-             section { top:-144px; background:#f1f1f1; width:100%; height:100vh; background-repeat:no-repeat; background-size:cover; background-position:bottom; }
-             .hero-content { display:grid; grid-template-rows:40% 40% 20%; height:100vh; }
-             .more { grid-row-start:3; align-self:end; animation-name:more-arrow; animation-duration:3.75s; animation-iteration-count:infinite; animation-timing-function: ease-in-out; opacity:.5; }
-              @keyframes more-arrow {
-               0% { transform:translateY(0); }
-               50% { transform:translateY(-16px); }
-               100% { transform:translateY(0); }
-             }
-         `}</style>
-         <style jsx global>{`
-           h1 { font-weight:300; letter-spacing:-0.03em; font-size:6em; line-height:.92em; grid-column:span 3; margin:0; color:white; align-self:end; }
-           .overview { color:white; grid-column:span 1; }
-            @media screen and (max-width:1440px) {
-             h1 { font-size:4.5em; }
-           }
-            @media screen and (max-width:600px) {
-             h1 { font-size:3em; }
-             section { top:-88px !important; height:100vh; background-position:bottom right !important; }
-             .hero-content { align-self:end; grid-template-rows:65% 25% 10% !important; }
-             .more img { height:4vh }
-             .overview { grid-column:span 2; }
-           }
-         `}</style>
-       </section>
-     )
-   }
-  }*/
-}
 /* harmony default export */ var components_WorkHero = (WorkHero_WorkHero);
 // CONCATENATED MODULE: ./components/MultiColumnItem.js
 
@@ -1051,15 +1010,12 @@ var MultiColumnItem_MultiColumnItem = function MultiColumnItem(props) {
 
 var ContentMultiColumn_ContentMultiColumn = function ContentMultiColumn(props) {
   return external__react__default.a.createElement("section", {
-    className: "jsx-747730336" + " " + "auto-height"
+    className: "jsx-3500497417" + " " + "auto-height"
   }, external__react__default.a.createElement("div", {
-    className: "jsx-747730336" + " " + "container grid col-3"
+    className: "jsx-3500497417" + " " + "container grid col-3"
   }, props.children), external__react__default.a.createElement(style__default.a, {
-    styleId: "3697373088",
-    css: []
-  }), external__react__default.a.createElement(style__default.a, {
     styleId: "3500497417",
-    css: ["section.jsx-747730336{margin-bottom:15vh;}", "@media screen and (max-width:600px){section.jsx-747730336{margin-bottom:10vh;}.container.jsx-747730336{grid-template-columns:1fr !important;}p.jsx-747730336{line-height:1.25em !important;}}"]
+    css: ["section.jsx-3500497417{margin-bottom:15vh;}", "@media screen and (max-width:600px){section.jsx-3500497417{margin-bottom:10vh;}.container.jsx-3500497417{grid-template-columns:1fr !important;}p.jsx-3500497417{line-height:1.25em !important;}}"]
   }));
 };
 
@@ -1282,7 +1238,9 @@ function (_React$Component) {
     value: function placeComponent(sectionTag, key) {
       switch (sectionTag) {
         case 'columns':
-          return external__react__default.a.createElement(components_ContentMultiColumn, null, external__react__default.a.createElement(components_MultiColumnItem, {
+          return external__react__default.a.createElement(components_ContentMultiColumn, {
+            key: key
+          }, external__react__default.a.createElement(components_MultiColumnItem, {
             img: this.state.Piece.details.sections[key].img1,
             caption: this.state.Piece.details.sections[key].caption1,
             copy: this.state.Piece.details.sections[key].copy1
@@ -1298,6 +1256,7 @@ function (_React$Component) {
 
         case 'large':
           return external__react__default.a.createElement(components_ContentLargeFeature, {
+            key: key,
             hero: this.state.Piece.details.sections[key].img,
             herosmall: this.state.Piece.details.sections[key].imgsmall,
             size: this.state.Screen
@@ -1305,16 +1264,19 @@ function (_React$Component) {
 
         case 'medium':
           return external__react__default.a.createElement(components_ContentMediumFeature, {
+            key: key,
             hero: this.state.Piece.details.sections[key].img
           }, this.state.Piece.details.sections[key].p);
 
         case 'medium-rev':
           return external__react__default.a.createElement(ContentMediumFeature_rev, {
+            key: key,
             hero: this.state.Piece.details.sections[key].img
           }, this.state.Piece.details.sections[key].p);
 
         case 'text':
           return external__react__default.a.createElement(components_ContentText, {
+            key: key,
             headline: this.state.Piece.details.sections[key].headline,
             copy: this.state.Piece.details.sections[key].copy
           }, this.state.Piece.details.sections[key].result ? external__react__default.a.createElement("p", null, external__react__default.a.createElement("span", {

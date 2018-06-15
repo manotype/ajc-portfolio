@@ -5,7 +5,7 @@ class NewsTicker extends React.Component {
   render() {
     return(
       <section className="auto-height">
-        <div class="container">
+        <div className="container">
           <p><span>May 14 · 2018</span>I am currently looking for local or remote freelance product design opportunities.</p>
         </div>
         <style jsx>{`

@@ -9,7 +9,7 @@ class Layout extends React.Component {
   }
   render() {
     return(
-      <div className="wrapper">
+      <div key={`1000000000000000000000`} className="wrapper">
         <Header />
         <NavBar />
         { this.props.children }

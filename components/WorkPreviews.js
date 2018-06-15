@@ -33,8 +33,8 @@ class WorkPreviews extends React.Component {
                   </div>
                 </section>
               ):(
-                <a className="secondary-feature-link" href={`/work?id=${piece.id}`}>
-                <div key={i} className="secondary-feature grid light-gray" style={{ backgroundImage:`url(${piece.previewImage})`, backgroundPosition:"center" , backgroundSize:"cover" }}>
+                <a key={i} className="secondary-feature-link" href={`/work?id=${piece.id}`}>
+                <div className="secondary-feature grid light-gray" style={{ backgroundImage:`url(${piece.previewImage})`, backgroundPosition:"center" , backgroundSize:"cover" }}>
                   <div className="nameplate">{piece.name}</div>
                 </div>
                 </a>
