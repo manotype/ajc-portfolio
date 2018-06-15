@@ -959,7 +959,7 @@ function (_React$Component) {
         className: "jsx-1700233673"
       }, external__react__default.a.createElement("span", {
         className: "jsx-1700233673"
-      }, "May 14 \xB7 2018"), "I am currently looking for local or remote freelance product design opportunities.")), external__react__default.a.createElement(style__default.a, {
+      }, "June 14 \xB7 2018"), "I am currently looking for local or remote product design opportunities (freelance or full-time).")), external__react__default.a.createElement(style__default.a, {
         styleId: "1700233673",
         css: ["p.jsx-1700233673{text-align:center;font-family:\"freight-text-pro\";font-weight:300;font-style:italic;color:#9b9b9b;-webkit-letter-spacing:.06em;-moz-letter-spacing:.06em;-ms-letter-spacing:.06em;letter-spacing:.06em;line-height:1.25em;}", "span.jsx-1700233673{color:#4a4a4a;font-size:.75em;font-family:\"ajcFont\";font-style:normal;font-weight:500;padding:0 .5em;-webkit-letter-spacing:0;-moz-letter-spacing:0;-ms-letter-spacing:0;letter-spacing:0;}", "section.jsx-1700233673{padding:20px 0 !important;}"]
       }));
