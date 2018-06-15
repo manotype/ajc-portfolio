@@ -1170,7 +1170,7 @@ function (_React$Component) {
         className: "jsx-3083770794"
       }, "Featured Work"), external__react__default.a.createElement("div", {
         className: "jsx-3083770794" + " " + "grid col-3 column-gutter row-gutter"
-      }, "//fixed column issue", this.state.pieces.map(function (piece, i) {
+      }, this.state.pieces.map(function (piece, i) {
         return i < 3 ? external__react__default.a.createElement("section", {
           key: i,
           style: {
