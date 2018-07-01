@@ -54,11 +54,6 @@ const news = [
     "id":0,
     "date":"June 14 · 2018",
     "headline":"I am currently looking for local or remote product design opportunities (freelance or full-time)"
-  },
-  {
-    "id":1,
-    "date":"June 29 · 2018",
-    "headline":"Lorem ipsum dolor."
   }
 ];
 
