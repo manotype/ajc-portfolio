@@ -2,7 +2,7 @@
   "name": "AJC-Portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://manotype.github.io/ajc-portfolio",
+  "homepage": "https://manotype.github.io/",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "react": "^16.4.1",
